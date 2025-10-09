@@ -4,3 +4,13 @@ body {
     background-color: #F8F8F8;
     font-family: 'Inter, sans-serif'; /* optional for MUI */
   }
+  .custom-slider .slick-track {
+    display: flex !important;  /* make it flex */
+    gap: 20px;                 /* 👈 spacing between slides */
+  }
+  
+  .custom-slider .slick-slide {
+    height: auto !important;   /* so cards don’t stretch */
+  }
+  
+  

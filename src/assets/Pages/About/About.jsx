@@ -147,6 +147,7 @@ const About = () => {
         </Box>
         <CustomersFeedback />
       </Box>
+    
     </>
   );
 };
