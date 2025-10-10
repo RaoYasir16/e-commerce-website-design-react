@@ -12,6 +12,9 @@ import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 import React from "react";
 import agoutBanner from "../../../assets/images/about-banner.png";
 import CustomersFeedback from "./components/CustomersFeedback";
+import FreeShipping from "./components/FreeShipping";
+import LatestNews from "./components/LatestNews";
+import DiscountBanner1 from "../Home/components/DiscountBanner1";
 
 const About = () => {
   return (
@@ -146,7 +149,11 @@ const About = () => {
           
         </Box>
         <CustomersFeedback />
+        <FreeShipping/>
+        <LatestNews/>
+        <DiscountBanner1/>
       </Box>
+
     
     </>
   );

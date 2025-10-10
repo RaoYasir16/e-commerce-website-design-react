@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./assets/Pages/Home/Home";
 import About from "./assets/Pages/About/About";
 import NavBar from "./assets/Pages/Navbar/NavBar"
+import LatestNews from "./assets/Pages/About/components/LatestNews";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 
         {/* About Page Route */}
         <Route path="/about" element={<About />} />
+        
       </Routes>
     </Router>
   );
