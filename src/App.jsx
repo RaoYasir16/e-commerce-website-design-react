@@ -7,6 +7,7 @@ import FashionClothes from "./assets/Pages/Categories/FashionClothes/FashionClot
 import PhoneAndTablet from "./assets/Pages/Categories/PhoneAndTablet/PhoneAndTablet";
 import GamingAndSports from "./assets/Pages/Categories/GamingAndSports/GamingAndSports";
 import HomeAppliance from "./assets/Pages/Categories/HomeAppliance/HomeAppliance";
+import Footer from "./assets/Pages/Footer/Footer";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/category/fashion" element={<FashionClothes/>} />
 
       </Routes>
+      < Footer />
     </Router>
   );
 }
